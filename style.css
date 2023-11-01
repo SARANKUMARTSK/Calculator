@@ -1,0 +1,44 @@
+body {
+    border: 1px solid black;
+    background: cadetblue;
+}
+.display{    
+    border-radius:10px;
+    border: 1px solid black;
+    background: white;
+}
+.inputbox{
+    height: 100px;
+    width:98%;
+    font-size:xx-large; 
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+}
+.button{
+    height: 100px;
+    border-radius: 10px;
+    font-size: xx-large;
+    width: calc((100% - 30px) / 4);
+    cursor: pointer;
+    transition: background-color 0.2s ease-out 100ms
+}
+.button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: yellow;
+}
+button:first-child, button:nth-child(2){
+    width: calc((100% - 10px) / 2);
+}
+.buttonGroup{
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    gap: 10px;
+    
+}
+.Keyboard{
+    margin-top: 10px;
+    /* background-color: lightgray; */
+}
